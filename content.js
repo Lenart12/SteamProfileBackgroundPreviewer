@@ -12,9 +12,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
             profile_content.classList.add("has_profile_background");
             var background_holder = '<div class="profile_background_holder_content"><div'
                                   + ' class="profile_background_overlay_content"></div><div class="pro'
-                                  + 'file_background_image_content " style="background-image: url(https://s'
-                                  + 'teamcdn-a.akamaihd.net/steamcommunity/public/images/items/400430/a3632'
-                                  + 'bb9d98f267ed7cdbcd9abe1a09be26596a0.jpg);"></div></div>';
+                                  + 'file_background_image_content " style=""></div></div>';
             profile_content.insertAdjacentHTML("afterbegin", background_holder);
             background_image = document.getElementsByClassName("profile_background_image_content")[0];
         }

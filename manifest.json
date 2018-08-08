@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Steam Profile Background Previewer",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "A chrome extention for previewing a steam profile with a different background image.",
   "icons": {
